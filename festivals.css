@@ -1,0 +1,9 @@
+.menu_conteiner li:nth-child(2) a{
+    color: rgb(216,219,4);
+}
+
+@media (max-width: 760px) {
+    .menu_conteiner li:nth-child(2) a{
+        color: rgb(214,43,71);
+    }
+}

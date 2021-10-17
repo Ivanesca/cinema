@@ -1,0 +1,16 @@
+.menu_conteiner li:nth-child(3) a{
+    color: rgb(216,219,4);
+}
+
+.task_content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+@media (max-width: 760px) {
+    .menu_conteiner li:nth-child(3) a{
+        color: rgb(214,43,71);
+    }
+
+    
+}

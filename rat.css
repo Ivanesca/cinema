@@ -1,0 +1,149 @@
+.main_window {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    margin: auto;
+    margin-top: 10%;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.body_rat {
+    width: 120px;
+    height: 75px;
+    background: radial-gradient(circle at 50% 90%, rgba(250, 194, 141) 0, #965000 50%);
+    border-radius: 80px/50px;
+    transform: rotate(15deg);
+    position: absolute;
+    left: 20%;
+    top: 35%;
+}
+
+.tail {
+    position: absolute;
+    width: 15px;
+    height: 65px;
+    background: #965000;
+    border-radius: 100%;
+    top: 50px;
+    left: 155px;
+    transform: rotate(41deg);
+}
+
+.head {
+    position: absolute;
+    border-top: 35px solid transparent;
+    border-right: 55px solid #965000;
+    border-bottom: 30px solid transparent;
+    transform: rotate(49deg);
+    top: 37px;
+    left: 23px;
+}
+
+.tailTail {
+    position: absolute;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 7px solid #fff;
+    transform: rotate(38deg);
+    top: 55px;
+    left: 178px;
+}
+
+.triangle {
+    position: absolute;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 20px solid #743e00;
+}
+
+.leg1 {
+    transform: rotate(5deg);
+    top: 140px;
+    left: 115px;
+}
+
+.leg2 {
+    transform: rotate(5deg);
+    top: 131px;
+    left: 60px;
+}
+
+.leg3 {
+    transform: rotate(40deg);
+    top: 120px;
+    left: 40px;
+}
+
+.leg4 {
+    transform: rotate(-12deg);
+    top: 135px;
+    left: 131px;
+}
+
+.leg5 {
+    transform: rotate(-12deg);
+    top: 120px;
+    left: 91px;
+}
+
+.mouth {
+    position: absolute;
+    width: 15px;
+    height: 28px;
+    border-radius: 100% 0 0 100% / 50% 0 0 50%;
+    background: #fff;
+    transform: rotate(168deg);
+    top: 69px;
+    left: 38px;
+}
+
+.ear1 {
+    position: absolute;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 16px solid #743e00;
+    transform: rotate(-20deg);
+    top: 61px;
+    left: 70px;
+}
+
+.ear2 {
+    position: absolute;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 14px solid #743e00;
+    transform: rotate(-25deg);
+    top: 68px;
+    left: 80px;
+}
+
+.nose {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: #000000;
+    border-radius: 50%;
+    top: 48px;
+    left: 28px;
+}
+
+.eye1 {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    background: #fff;
+    border-radius: 50%;
+    top: 67px;
+    left: 58px;
+}
+
+.eye2 {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background: #000000;
+    border-radius: 50%;
+    top: 69px;
+    left: 58px;
+}

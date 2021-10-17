@@ -1,0 +1,201 @@
+.logo {
+    width: 125px;
+    height: 65px;
+    background-color: rgb(235,235,235);
+    position: relative;
+    overflow: hidden;
+    z-index: 3;
+}
+
+.body {
+    width: 60px;
+    height: 27px;
+    background-color: rgb(64,64,64);
+    border-radius: 7px;
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+
+.lens_first {
+    width: 10px;
+    height: 10px;
+    background-color: rgb(64,64,64);
+    position: relative;
+    left: 58px;
+}
+
+.lens_second {
+    width: 2px;
+    height: 14px;
+    background-color: rgb(64,64,64);
+    position: relative;
+    left: 64px;
+    top: -12px;
+}
+
+.lens_third {
+	border-top: 10px solid transparent;
+	border-right: 28px solid rgb(64,64,64);
+	border-bottom: 11px solid transparent;
+    position: relative;
+    top: -29px;
+    left: 20px;
+}
+
+.circle {
+    position: absolute;
+    border-radius: 100%;
+}
+
+.small_bobbin {
+    width: 28px;
+    height: 28px;
+    top: -15px;
+    left: -15px;
+    background-color: rgb(64,64,64);
+}
+
+.big_bobbin {
+    width: 35px;
+    height: 35px;
+    top: -28px;
+    left: 16px;
+    background-color: rgb(64,64,64);
+}
+
+.small_circle {
+    width: 38px;
+    height: 38px;
+    top: -22px;
+    left: -20px;
+    background-color: rgb(235,235,235);
+}
+
+.big_circle {
+    width: 51px;
+    height: 51px;
+    top: -42px;
+    left: 8px;
+    background-color: rgb(235,235,235);
+}
+
+.bottom {
+    width: 40px;
+    height: 8px;
+    border-radius: 5px;
+    position: relative;
+    background-color: rgb(64,64,64);
+    left: 10px;
+    top: 22px;
+}
+
+.square {
+    width: 4px;
+    height: 4px;
+    border-radius: 1px;
+    top: 20px;
+    background-color: rgb(245,245,245);
+    position: absolute;
+}
+
+.square_first {
+
+    left: 4px;
+}
+
+.square_second {
+    left: 16px;
+}
+
+.square_third {
+    left: 28px;
+}
+
+.square_fourth {
+    left: 40px;
+}
+
+.square_fifth {
+    left: 51px;
+}
+
+.square_sixth {
+    left: 66px
+}
+
+.big_bobbin_circle {
+    width: 7px;
+    height: 7px;
+    border-radius: 100%;
+    background-color: rgb(225,225,225);
+    position: absolute;
+}
+
+.bbobbin_circle_1 {
+    left: 14px;
+    top: 3px;
+}
+
+.bbobbin_circle_2 {
+    left: 25px;
+    top: 10px;
+}
+
+.bbobbin_circle_3 {
+    left: 3px;
+    top: 10px;
+}
+
+.bbobbin_circle_4 {
+    left: 14px;
+    top: 27px;
+}
+
+.bbobbin_circle_5 {
+    left: 4px;
+    top: 21px;
+}
+
+.bbobbin_circle_6 {
+    left: 24px;
+    top: 21px;
+}
+
+.small_bobbin_circle {
+    width: 5px;
+    height: 5px;
+    border-radius: 100%;
+    background-color: rgb(225,225,225);
+    position: absolute;
+}
+
+.sbobbin_circle_1 {
+    left: 12px;
+    top: 3px;
+}
+
+.sbobbin_circle_2 {
+    left: 21px;
+    top: 8px;
+}
+
+.sbobbin_circle_3 {
+    left: 3px;
+    top: 8px;
+}
+
+.sbobbin_circle_4 {
+    left: 12px;
+    top: 21px;
+}
+
+.sbobbin_circle_5 {
+    left: 3px;
+    top: 17px;
+}
+
+.sbobbin_circle_6 {
+    left: 21px;
+    top: 17px;
+}

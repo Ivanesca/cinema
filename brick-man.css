@@ -1,0 +1,126 @@
+.brickman {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    /* height: 100vh; */
+    /* width: 750px; */
+}
+
+.flex {
+    width: 300px;
+    height: 300px;
+    display: flex;;
+    overflow: hidden;
+    align-items: center
+}
+
+.flex div:first-child {
+    transform: translate(-50px, 0px);
+    z-index: 1;
+    opacity: 1;
+}
+
+.flex div:last-child {
+    transform: translate(-650px, 0px);
+    opacity: 0;
+    z-index: 2;
+}
+
+.flex div:nth-child(2) {
+    transform: translate(-250px, 0px);
+    opacity: 0;
+    z-index: 3;
+}
+
+.flex div:nth-child(3) {
+    transform: translate(-500px, 0px);
+    opacity: 0;
+    z-index: 4;
+}
+
+.flex:hover div:last-child {
+    opacity: 1;
+    transition: 2s;
+}
+
+.flex:hover div:nth-child(2) {
+    opacity: 1;
+}
+
+.flex:hover::before {
+    opacity: 1;
+    transform: translate(150px, -10px);
+    transition: 1s;
+}
+
+.flex:hover div:first-child {
+    opacity: 0;
+}
+
+.flex:active div:nth-child(2) {
+    opacity: 0;
+}
+
+.flex:active div:nth-child(3) {
+    opacity: 1;
+}
+
+.flex:active::before {
+    opacity: 0;
+    transition: 0s;
+}
+
+.flex:active::after {
+    transform: translate(150px, -10px);
+    opacity: 1;
+    transition: 1.2s;
+}
+
+.flex:active div:last-child {
+    transform: translate(-560px, -300px) rotate(-720deg);
+}
+
+.flex:active {
+    animation-name: flex-shake;
+    animation-duration: 100ms;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.flex::before {
+    content: "Это мяч?...";
+    color: rgb(236, 236, 236);
+    display: block;
+    position: absolute;
+    transform: translate(150px, -60px);
+    font-family: monospace;
+    font-size: 20px;
+    opacity: 0;
+}
+
+.flex::after {
+    content: "Это кирпич";
+    display: block;
+    color: rgb(236, 236, 236);
+    position: absolute;
+    transform: translate(150px, -60px);
+    font-family: monospace;
+    font-size: 20px;
+    opacity: 0;
+}
+
+@keyframes flex-shake{
+    0%{}
+    100%{transform: translateX(-15px);}
+}
+
+@keyframes rotation{
+    from {
+        transform: translate(-650px, 0px);
+    }
+    to {
+        transform: translate(-560px, -300px) rotate(-720deg);
+    }
+}
