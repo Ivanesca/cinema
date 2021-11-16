@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -19,12 +20,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
     <title>Tasks</title>
 </head>
+
 <body>
     <div class='wrapper'>
-        <header class = "header">
+        <header class="header">
             <nav class="nav_conteiner">
-                <div class = "logo">
-                        <div class="body">
+                <div class="logo">
+                    <div class="body">
                         <div class="small_circle circle"></div>
                         <div class="big_circle circle"></div>
                         <div class="small_bobbin circle">
@@ -53,29 +55,29 @@
                         <div class="square_fourth square"></div>
                         <div class="square_fifth square"></div>
                         <div class="square_sixth square"></div>
-                        </div>
+                    </div>
                 </div>
                 <a href="index.html" class="head_title">le <br> festival</a>
                 <div class="header_burger">
                     <span></span>
                 </div>
                 <ul class="menu_conteiner">
-                        <li>
-                            <a href="films.html">films</a>
-                        </li>
-                        <li>
-                            <a href="festivals.html">festivals</a>
-                        </li>
-                        <li>
-                            <a href="tasks.html">tasks</a>
-                        </li>
-                        <li>
-                            <a href="contact.html">contact</a>
-                        </li>
+                    <li>
+                        <a href="films.html">films</a>
+                    </li>
+                    <li>
+                        <a href="festivals.html">festivals</a>
+                    </li>
+                    <li>
+                        <a href="tasks.html">tasks</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">contact</a>
+                    </li>
                 </ul>
             </nav>
         </header>
-    
+
         <main class='content'>
             <div class="task_content">
                 <div>
@@ -112,9 +114,36 @@
                         </div>
                     </div>
                 </div>
+                <div class="input">
+                    <p>Enter sides</p>
+                    <input id="side_1" onchange="check()"><br />
+                    <input id="side_2" onchange="check()"><br />
+                    <input id="side_3" onchange="check()"><br />
+                </div>
+                <div class="result">
+                    <img src="tr-4.jpg" id="result_image">
+                </div>
+                
+                <div class="task_4_result">
+                    <ul class="result_list">
+
+                    </ul>
+                </div>
+                <div class="task_4_list">
+                    <ul class="disassembledList">
+
+                    </ul>
+                </div>
+                <div class="task_4_input">
+                    <div class="input_container">
+                        <input class="words">
+                        <button id="button" onclick="disassemble()">Disassemble</button>
+                    </div>
+                </div>
+                
             </div>
         </main>
-    
+
         <footer class='footer'>
             <div class='footer_nav'>
                 <nav>
@@ -147,13 +176,16 @@
                 </nav>
             </div>
             <div class='footer_img'>
-                <img class='img_1'src="https://i.pinimg.com/736x/7a/02/ff/7a02ffb930aea6ae972538cf10ef9d8d.jpg">
+                <img class='img_1' src="https://i.pinimg.com/736x/7a/02/ff/7a02ffb930aea6ae972538cf10ef9d8d.jpg">
                 <img class='img_2' src="https://www.km.ru/sites/default/files/img/news/2021/9/13/75.jpg?1631493283">
-                <img class='img_3' src="https://www.km.ru/sites/default/files/img/news/2020/8/24/minigram_berlinale_01_2x-1600x678.jpg">
+                <img class='img_3'
+                    src="https://www.km.ru/sites/default/files/img/news/2020/8/24/minigram_berlinale_01_2x-1600x678.jpg">
             </div>
         </footer>
     </div>
-        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
-        <script src = "script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="script.js"></script>
+    <script src="task_4.js"></script>
 </body>
+
 </html>
